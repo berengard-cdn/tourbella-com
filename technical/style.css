@@ -1,0 +1,121 @@
+h1
+{
+	font-size:20;
+	font-style:bold;
+	text-decoration:underline;
+}
+
+h2
+{
+	font-size:24;
+	font-style:bold;
+	text-decoration:underline;
+}
+
+h3
+{
+	font-size:18;
+	font-style:bold;
+}
+
+table
+{
+	border-collapse: collapse;
+}
+
+th
+{
+	background-color: #64ac66;
+}
+
+td.shape
+{
+	text-align: left;
+}
+td.content
+{
+	font-size:17;
+    text-align: left;
+	background-image: url(/images/border.gif);
+	background-repeat: repeat-y;
+	background-position: right;
+}
+
+td.leftside
+{
+	background-image: url(/images/border-left.gif);
+	background-repeat: repeat-y;
+	empty-cells: show;
+}
+
+td
+{
+	text-align: center;
+}
+
+td.guestbook
+{
+	text-align: left;
+}
+
+table.menu1
+{
+	display:none;
+	position:absolute;
+	margin-left: -30px;
+	margin-top: -10px;
+	border-collapse: collapse;
+	font-size: 16;
+	font-style: italic;
+	background-color:64ac66;
+	white-space: nowrap;
+	border: 1px;
+}
+
+table.menu2
+{
+	display: none;
+	position: absolute;
+	margin-left: -30px;
+	margin-top: -10px;
+	border-collapse: collapse;
+	font-size: 16;
+	font-style: italic;
+	background-color:64ac66;
+	white-space: nowrap;
+	border: 1px;
+}
+
+table.menu3
+{
+	display: none;
+	position: absolute;
+	margin-left: -50px;
+	margin-top: -10px;
+	border-collapse: collapse;
+	font-size: 16;
+	font-style: italic;
+	background-color:64ac66;
+	white-space: nowrap;
+	border: 1px;
+}
+
+a.submenulinks
+{
+	color: black;
+	text-decoration: none;
+	font-size: 18;
+}
+
+table.gui
+{
+	text-align:left;
+	vertical-align:top;
+	table-layout: fixed
+}
+
+td.content
+{
+	padding-right: 10px;
+	padding-bottom: 20px;
+}
